@@ -1,0 +1,11 @@
+{
+  "name": "202301-w3ch4",
+  "version": "1.0.0",
+  "description": "Week3 challenge 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "author": "Ivan Duran",
+  "license": "ISC"
+}
