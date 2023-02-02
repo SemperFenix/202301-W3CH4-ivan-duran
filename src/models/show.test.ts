@@ -3,7 +3,16 @@ import { Show } from './show';
 describe('Given Show class', () => {
   describe('When given id, name, creator, year, poster and emmies ', () => {
     test('Then it should return an object with the properties given, watched false and score 0', () => {
-      const show = new Show(2, 'Scrubs', 'Bill Lawrence', 2001, 'url', 2);
+      const show = new Show(
+        2,
+        'Scrubs',
+        'Bill Lawrence',
+        2001,
+        'url',
+        2,
+        false,
+        0
+      );
       expect(show).toBeInstanceOf(Show);
       expect(show.id).toBe(2);
       expect(show.name).toBe('Scrubs');

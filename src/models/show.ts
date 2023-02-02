@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 /* eslint-disable no-unused-vars */
 /* eslint-disable max-params */
 export type ShowStructure = {
@@ -12,18 +13,14 @@ export type ShowStructure = {
 };
 
 export class Show implements ShowStructure {
-  public watched: boolean;
-  public score: number;
-
   constructor(
     public id: number,
     public name: string,
     public creator: string,
     public year: number,
     public poster: string,
-    public emmies: number
-  ) {
-    this.watched = false;
-    this.score = 0;
-  }
+    public emmies: number,
+    public watched: boolean,
+    public score: number
+  ) {}
 }
