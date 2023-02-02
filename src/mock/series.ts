@@ -1,4 +1,6 @@
-export const series = [
+import { ShowStructure } from '../models/show';
+
+export const series: ShowStructure[] = [
   {
     id: 1,
     name: 'The Sopranos',
@@ -26,8 +28,7 @@ export const series = [
     name: 'Mad Men',
     creator: 'Matthew Weiner',
     year: 2007,
-    poster:
-      'https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg',
+    poster: 'https://es.web.img3.acsta.net/pictures/21/02/10/20/02/0834301.jpg',
     watched: true,
     score: 5,
     emmies: 116,
@@ -47,7 +48,8 @@ export const series = [
     name: 'Atypical',
     creator: 'Robia Rashid',
     year: 2017,
-    poster: 'https://www.cine.com/media/series/2711.jpg',
+    poster:
+      'https://m.media-amazon.com/images/M/MV5BMjNjNThmYTUtMjY2Ni00OGE4LTgzOTItYTgzMDllNDM5NTI5XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_FMjpg_UX1000_.jpg',
     watched: false,
     score: 0,
     emmies: 0,
